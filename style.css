@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://wallpapercave.com/wp/wp2757954.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header, footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5em;
+  color: #00ffc3;
+  margin: 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  color: #00ffc3;
+  transform: scale(1.1);
+}
+
+main, section {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 900px;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc3;
+  text-align: center;
+}
+
+button, .btn {
+  background-color: #00ffc3;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover, .btn:hover {
+  background-color: #00cc9c;
+  transform: scale(1.05);
+}
+
+footer p {
+  color: #cccccc;
+  font-size: 0.9em;
+}
