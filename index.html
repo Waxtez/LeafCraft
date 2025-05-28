@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeafCraft - Accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="logo">LeafCraft</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="vote.html">Vote</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="connexion.html">Connexion</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>Bienvenue sur LeafCraft</h1>
+        <p>Un monde survie économique où chaque bloc compte.</p>
+        <button onclick="copyIP()">Copier l'adresse IP du serveur</button>
+        <p class="ip" id="ip-text">83.143.117.13:20400</p>
+      </div>
+    </div>
+  </header>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 LeafCraft. Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script>
+    function copyIP() {
+      const ipText = '83.143.117.13:20400';
+      navigator.clipboard.writeText(ipText);
+      alert('Adresse IP copiée : ' + ipText);
+    }
+  </script>
+</body>
+</html>
